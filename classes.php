@@ -22,15 +22,12 @@ function connectMysqli(){
 
   $dbdata = array(
 
-    /*'host' => 'localhost',
-    'user' =>  'grtsx_csgorich',//'root',//'grtsx_csgorich',
-    'password' => 'haslodobazydanych',//'ubuntu',//'haslodobazydanych',
-    'db' => 'grtsx_csgorich',//'csrich',//'grtsx_csgorich',*/
 
-    'host' => 'localhost',
-    'user' =>  'root',//'root',//'grtsx_csgorich',
-    'password' => 'ubuntu',//'ubuntu',//'haslodobazydanych',
-    'db' => 'csrich',//'csrich',//'grtsx_csgorich',
+
+    'host' => $host,
+    'user' =>  $user,
+    'password' => $pass,
+    'db' => $db,
 
 
   );
