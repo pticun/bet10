@@ -1,0 +1,92 @@
+#teams, #matches{
+  margin: 5% auto;
+  border-radius: 5px;
+  border: 1px solid #afafaf;
+  width: 90%;
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+.new-team{
+  width: 100%;
+  text-align: center;
+  padding: 2%;
+  box-sizing: border-box;
+  border: 1px solid #aeaeae;
+  margin-top: 4%;
+  background-color: #f5f5f5;
+}
+
+.add-match{
+  width: 100%;
+  margin: 2% 0;
+  padding: 2%;
+  box-sizing: border-box;
+  border: 1px solid #aeaeae;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+
+#matches input[type="text"], #teams input[type="text"]{
+  border: 0;
+  display: inline-block;
+  padding: 1%;
+  box-sizing: border-box;
+  width: 40%;
+  font-size: 100%;
+  font-family: 'Muli', sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+
+#matches input[type="submit"], #teams input[type="submit"]{
+  width: 20%;
+  padding: 1%;
+  box-sizing: border-box;
+  text-align: center;
+  border: 2px solid #7BC4FF;
+  color: #7BC4FF;
+  font-family: 'Muli', sans-serif;
+  font-weight: 600;
+  font-size: 90%;
+  cursor: pointer;
+  background-color: transparent;
+  transition-duration: 0.3s;
+}
+
+#matches input[type="submit"]:hover, #teams input[type="submit"]:hover{
+  background-color: #7BC4FF;
+  color: white;
+}
+
+#matches input[type="text"]:focus, #teams input[type="text"]:focus{
+  outline: 0;
+  text-align: left;
+}
+
+#matches .btn-img, #teams .btn-img{
+  width: 40%;
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  padding: 1%;
+  background-color: #FF9782;
+  font-size: 100%;
+  border-bottom-left-radius: 5px;
+  margin-bottom: 2%;
+
+}
+
+#matches #match-info{
+  width: 100%;
+  padding: 2%;
+  box-sizing: border-box;
+  display: none;
+  text-align: center;
+  border: 1px solid #cacaca;
+  background-color: #f5f5f5;
+  margin: 2% 0;
+}

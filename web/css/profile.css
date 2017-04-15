@@ -1,0 +1,52 @@
+#profile{
+  margin-top: 5%;
+}
+
+#profil-data, #last-bets{
+  float: left;
+  border: 1px solid #cacaca;
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+#profil-data{
+  width: 35%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+#last-bets{
+  width: 50%;
+  float: left;
+  margin-right: 5%;
+  text-align: center;
+}
+
+#last-bets .placed-bets{
+  width: 100%;
+  padding: 2%;
+  box-sizing: border-box;
+  border: 1px solid #cacaca;
+  margin-bottom: 1%;
+}
+
+#last-bets .team{
+  color: #FFC28C;
+  font-weight: 800;
+}
+
+
+#last-bets .correct-winner{
+  color: #1AD150;
+}
+
+#last-bets .wrong-winner{
+  color: #FF7868;
+}
+
+#deposit{
+  width: 85%;
+  margin:5% auto;
+  border: 1px solid #cacaca;
+  padding: 2%;
+}
